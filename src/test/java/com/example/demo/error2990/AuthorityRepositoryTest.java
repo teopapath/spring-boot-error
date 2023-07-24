@@ -1,5 +1,7 @@
-package com.example.demo;
+package com.example.demo.error2990;
 
+import com.example.demo.error2990.AuthorityRepository;
+import com.example.demo.error2990.AuthorityRoleDTO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -13,7 +15,7 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 
 import java.util.List;
 
-import static com.example.demo.AuthorityStatus.ACTIVE;
+import static com.example.demo.error2990.AuthorityStatus.ACTIVE;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest

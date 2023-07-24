@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.error2990;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

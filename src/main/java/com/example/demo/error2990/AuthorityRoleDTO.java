@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.error2990;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

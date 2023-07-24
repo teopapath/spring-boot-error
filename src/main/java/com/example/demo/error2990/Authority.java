@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.error2990;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -10,7 +10,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.NamedQuery;
 import jakarta.persistence.Table;
-import jakarta.persistence.UniqueConstraint;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -34,7 +33,7 @@ import java.time.LocalDateTime;
 @Table(name = "au_authority")
 @NamedQuery(
         name = Authority.NAMED_QUERY_FIND_NON_PENDING_AUTHORITY_ROLE_LIST,
-        query = "select new com.example.demo.AuthorityRoleDTO("
+        query = "select new com.example.demo.error2990.AuthorityRoleDTO("
                 + "au.userId, au.status, r.name, r.code, au.creationDate) "
                 + "from Authority au "
                 + "join Role r on r.code = au.code "
